@@ -1,0 +1,40 @@
+# Secrets and environment configuration
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+**/!.env.example
+
+# JavaScript dependencies and Python environments
+**/node_modules/
+.venv/
+**/.venv/
+**/venv/
+__pycache__/
+*.py[cod]
+
+# macOS and editor clutter
+.DS_Store
+.vscode/
+.idea/
+
+# Spark/Hadoop generated files
+*.crc
+spark-warehouse/
+metastore_db/
+
+# Generated model artifacts and run outputs
+models/runs/
+models/logistic_regression/
+models/decision_tree/
+models/random_forest/
+models/linear_svm/
+outputs/model_evaluation/runs/
+
+!**/.env.example
+
+.env
+.env.*
+!.env.example
+frontend/dist/
