@@ -1,0 +1,14 @@
+AirCast India preprocessing summary
+Raw records: 60613
+Invalid records excluded: 123
+Duplicate records removed: 0
+Cleaned hourly records: 60490
+All station-days: 2659
+Eligible station-days: 2466
+Labelled rows: 2351
+Positive cases: 798
+Negative PM2.5 measurements: 0
+Negative hazard cases: 1553
+Unlabelled rows: 115
+Threshold: 60.0 µg/m³
+Minimum readings/day: 18

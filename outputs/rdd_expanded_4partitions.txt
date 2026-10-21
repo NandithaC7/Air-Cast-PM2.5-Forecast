@@ -1,0 +1,37 @@
+26/10/16 05:20:44 WARN Utils: Your hostname, nandu resolves to a loopback address: 127.0.1.1; using 192.168.64.3 instead (on interface enp0s1)
+26/10/16 05:20:44 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/10/16 05:20:45 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+
+========== AIRCAST RDD DEMONSTRATION ==========
+Input file: /home/nandu/aircast_pm25_hourly_expanded.csv
+Valid hourly records: 117768
+RDD partition count: 4
+
+RDD lineage / execution plan:
+(4) MapPartitionsRDD[7] at coalesce at NativeMethodAccessorImpl.java:0 [Memory Serialized 1x Replicated]
+ |       CachedPartitions: 4; MemorySize: 603.7 KiB; DiskSize: 0.0 B
+ |  CoalescedRDD[6] at coalesce at NativeMethodAccessorImpl.java:0 [Memory Serialized 1x Replicated]
+ |  ShuffledRDD[5] at coalesce at NativeMethodAccessorImpl.java:0 [Memory Serialized 1x Replicated]
+ +-(2) MapPartitionsRDD[4] at coalesce at NativeMethodAccessorImpl.java:0 [Memory Serialized 1x Replicated]
+    |  PythonRDD[3] at RDD at PythonRDD.scala:53 [Memory Serialized 1x Replicated]
+    |  file:///home/nandu/aircast_pm25_hourly_expanded.csv MapPartitionsRDD[1] at textFile at NativeMethodAccessorImpl.java:0 [Memory Serialized 1x Replicated]
+    |  file:///home/nandu/aircast_pm25_hourly_expanded.csv HadoopRDD[0] at textFile at NativeMethodAccessorImpl.java:0 [Memory Serialized 1x Replicated]
+
+========== STATION AGGREGATES ==========
+Station | Valid readings | Mean PM2.5 (µg/m³)
+Air Check | 5869 | 63.76
+Anand Lok | 7337 | 95.74
+Araria | 5571 | 120.18
+CURAJ | 10065 | 37.11
+GK1 Delhi | 12053 | 95.70
+IIMA Ventures | 5392 | 25.52
+Koramangala Bengaluru | 5680 | 31.57
+New Delhi | 14586 | 81.23
+Santushti Apartments, Vasant Kunj | 11388 | 61.14
+Sector 1, Noida extension | 8132 | 113.35
+Talab Tillo Jammu | 5924 | 56.45
+Uptitude Cloud Pvt Ltd - Sector 62, GGN | 7665 | 95.21
+VNIT Nagpur | 6193 | 53.96
+Zoo Park Hyderabad | 11913 | 43.08
