@@ -1,0 +1,108 @@
+sensor_id,station,month,record_count_returned,possible_api_cap,status
+23320,Mumbai,2025-01,744,False,OK
+23320,Mumbai,2025-02,672,False,OK
+23320,Mumbai,2025-03,84,False,OK
+23320,Mumbai,2025-04,0,False,OK
+23320,Mumbai,2025-05,0,False,OK
+23320,Mumbai,2025-06,0,False,OK
+23320,Mumbai,2025-07,0,False,OK
+23320,Mumbai,2025-08,0,False,OK
+23320,Mumbai,2025-09,0,False,OK
+23320,Mumbai,2025-10,0,False,OK
+23320,Mumbai,2025-11,0,False,OK
+23320,Mumbai,2025-12,0,False,OK
+23320,Mumbai,2026-01,0,False,OK
+23320,Mumbai,2026-02,0,False,OK
+23320,Mumbai,2026-03,0,False,OK
+23320,Mumbai,2026-04,0,False,OK
+23320,Mumbai,2026-05,0,False,OK
+23320,Mumbai,2026-06,0,False,OK
+23320,Mumbai,2026-07,0,False,OK
+23320,Mumbai,2026-08,295,False,OK
+23320,Mumbai,2026-09,547,False,OK
+13273790,"Santushti Apartments, Vasant Kunj",2025-07,744,False,OK
+13273790,"Santushti Apartments, Vasant Kunj",2025-08,744,False,OK
+13273790,"Santushti Apartments, Vasant Kunj",2025-09,704,False,OK
+13273790,"Santushti Apartments, Vasant Kunj",2025-10,738,False,OK
+13273790,"Santushti Apartments, Vasant Kunj",2025-11,695,False,OK
+13273790,"Santushti Apartments, Vasant Kunj",2025-12,739,False,OK
+13273790,"Santushti Apartments, Vasant Kunj",2026-01,743,False,OK
+13273790,"Santushti Apartments, Vasant Kunj",2026-02,650,False,OK
+13273790,"Santushti Apartments, Vasant Kunj",2026-03,744,False,OK
+13273790,"Santushti Apartments, Vasant Kunj",2026-04,716,False,OK
+13273790,"Santushti Apartments, Vasant Kunj",2026-05,739,False,OK
+13273790,"Santushti Apartments, Vasant Kunj",2026-06,720,False,OK
+13273790,"Santushti Apartments, Vasant Kunj",2026-07,744,False,OK
+13273790,"Santushti Apartments, Vasant Kunj",2026-08,713,False,OK
+13273790,"Santushti Apartments, Vasant Kunj",2026-09,720,False,OK
+15289075,Air Check,2026-02,672,False,OK
+15289075,Air Check,2026-03,744,False,OK
+15289075,Air Check,2026-04,705,False,OK
+15289075,Air Check,2026-05,739,False,OK
+15289075,Air Check,2026-06,720,False,OK
+15289075,Air Check,2026-07,744,False,OK
+15289075,Air Check,2026-08,738,False,OK
+15289075,Air Check,2026-09,720,False,OK
+13587481,IIMA Ventures,2025-08,595,False,OK
+13587481,IIMA Ventures,2025-09,57,False,OK
+13587481,IIMA Ventures,2025-10,0,False,OK
+13587481,IIMA Ventures,2025-11,0,False,OK
+13587481,IIMA Ventures,2025-12,0,False,OK
+13587481,IIMA Ventures,2026-01,537,False,OK
+13587481,IIMA Ventures,2026-02,432,False,OK
+13587481,IIMA Ventures,2026-03,743,False,OK
+13587481,IIMA Ventures,2026-04,716,False,OK
+13587481,IIMA Ventures,2026-05,740,False,OK
+13587481,IIMA Ventures,2026-06,701,False,OK
+13587481,IIMA Ventures,2026-07,114,False,OK
+13587481,IIMA Ventures,2026-08,258,False,OK
+13587481,IIMA Ventures,2026-09,493,False,OK
+14453757,"Sector 1, Noida extension",2025-11,695,False,OK
+14453757,"Sector 1, Noida extension",2025-12,723,False,OK
+14453757,"Sector 1, Noida extension",2026-01,743,False,OK
+14453757,"Sector 1, Noida extension",2026-02,672,False,OK
+14453757,"Sector 1, Noida extension",2026-03,730,False,OK
+14453757,"Sector 1, Noida extension",2026-04,716,False,OK
+14453757,"Sector 1, Noida extension",2026-05,738,False,OK
+14453757,"Sector 1, Noida extension",2026-06,720,False,OK
+14453757,"Sector 1, Noida extension",2026-07,744,False,OK
+14453757,"Sector 1, Noida extension",2026-08,734,False,OK
+14453757,"Sector 1, Noida extension",2026-09,720,False,OK
+14598776,"Uptitude Cloud Pvt Ltd - Sector 62, GGN",2025-12,740,False,OK
+14598776,"Uptitude Cloud Pvt Ltd - Sector 62, GGN",2026-01,730,False,OK
+14598776,"Uptitude Cloud Pvt Ltd - Sector 62, GGN",2026-02,672,False,OK
+14598776,"Uptitude Cloud Pvt Ltd - Sector 62, GGN",2026-03,724,False,OK
+14598776,"Uptitude Cloud Pvt Ltd - Sector 62, GGN",2026-04,716,False,OK
+14598776,"Uptitude Cloud Pvt Ltd - Sector 62, GGN",2026-05,739,False,OK
+14598776,"Uptitude Cloud Pvt Ltd - Sector 62, GGN",2026-06,720,False,OK
+14598776,"Uptitude Cloud Pvt Ltd - Sector 62, GGN",2026-07,744,False,OK
+14598776,"Uptitude Cloud Pvt Ltd - Sector 62, GGN",2026-08,740,False,OK
+14598776,"Uptitude Cloud Pvt Ltd - Sector 62, GGN",2026-09,720,False,OK
+14745878,Anand Lok,2025-12,739,False,OK
+14745878,Anand Lok,2026-01,741,False,OK
+14745878,Anand Lok,2026-02,672,False,OK
+14745878,Anand Lok,2026-03,744,False,OK
+14745878,Anand Lok,2026-04,716,False,OK
+14745878,Anand Lok,2026-05,740,False,OK
+14745878,Anand Lok,2026-06,720,False,OK
+14745878,Anand Lok,2026-07,744,False,OK
+14745878,Anand Lok,2026-08,740,False,OK
+14745878,Anand Lok,2026-09,720,False,OK
+14755255,Araria,2025-12,616,False,OK
+14755255,Araria,2026-01,371,False,OK
+14755255,Araria,2026-02,452,False,OK
+14755255,Araria,2026-03,615,False,OK
+14755255,Araria,2026-04,646,False,OK
+14755255,Araria,2026-05,535,False,OK
+14755255,Araria,2026-06,720,False,OK
+14755255,Araria,2026-07,479,False,OK
+14755255,Araria,2026-08,434,False,OK
+14755255,Araria,2026-09,671,False,OK
+15175974,Talab Tillo Jammu,2026-02,641,False,OK
+15175974,Talab Tillo Jammu,2026-03,744,False,OK
+15175974,Talab Tillo Jammu,2026-04,716,False,OK
+15175974,Talab Tillo Jammu,2026-05,739,False,OK
+15175974,Talab Tillo Jammu,2026-06,720,False,OK
+15175974,Talab Tillo Jammu,2026-07,740,False,OK
+15175974,Talab Tillo Jammu,2026-08,721,False,OK
+15175974,Talab Tillo Jammu,2026-09,720,False,OK

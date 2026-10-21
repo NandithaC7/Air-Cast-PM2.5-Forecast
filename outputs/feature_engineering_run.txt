@@ -1,0 +1,23 @@
+26/10/16 05:45:14 WARN Utils: Your hostname, nandu resolves to a loopback address: 127.0.1.1; using 192.168.64.3 instead (on interface enp0s1)
+26/10/16 05:45:14 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/10/16 05:45:14 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+AirCast India feature-engineering summary
+Input daily directory: /mnt/bda-share/bda proj/Air Cast India/preprocessed/expanded/daily_valid
+Input labels directory: /mnt/bda-share/bda proj/Air Cast India/preprocessed/expanded/next_day_dataset
+Output directory: /mnt/bda-share/bda proj/Air Cast India/preprocessed/expanded/model_features
+Labelled feature rows: 4666
+Non-hazard labels (0): 3018
+Hazard labels (1): 1648
+Missing lag-1 values: 155
+Missing lag-2 values: 229
+Missing lag-3 values: 276
+Missing rolling-7-day means: 141
+Predictors: current-day PM2.5 statistics, reading count, calendar-date lags,
+            rolling mean, daily change and calendar features.
+Target: next_day_hazard, renamed label.
+Future-day measurements are excluded from the predictor columns.
+Rolling window: current date and previous six calendar days; minimum 4 observations.
+
+Feature dataset saved successfully.

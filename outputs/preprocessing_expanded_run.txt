@@ -1,0 +1,54 @@
+26/10/16 05:24:48 WARN Utils: Your hostname, nandu resolves to a loopback address: 127.0.1.1; using 192.168.64.3 instead (on interface enp0s1)
+26/10/16 05:24:48 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/10/16 05:24:48 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+
+========== AIRCAST PREPROCESSING REPORT ==========
+Spark version: 3.5.9
+Session timezone: Asia/Kolkata
+Raw hourly records: 117891
+Invalid records excluded: 123
+Negative PM2.5 measurements found: 0
+Null/non-numeric values found: 123
+Duplicate sensor/timestamp records removed: 0
+Cleaned hourly records: 117768
+All station-days before coverage filter: 5110
+Station-days with >= 18 valid readings: 4835
+Rows with a valid next-calendar-day label: 4666
+Positive next-day hazard cases: 1648
+Negative next-day hazard cases: 3018
+Rows excluded because next day was unavailable: 169
+
+========== DAILY COVERAGE BY STATION ==========
++---------------------------------------+----------------+---------------------+----------------+---------------+
+|station                                |all_station_days|eligible_station_days|first_local_date|last_local_date|
++---------------------------------------+----------------+---------------------+----------------+---------------+
+|Air Check                              |247             |245                  |2026-01-28      |2026-10-01     |
+|Anand Lok                              |308             |306                  |2025-11-28      |2026-10-01     |
+|Araria                                 |252             |225                  |2025-11-29      |2026-10-01     |
+|CURAJ                                  |434             |415                  |2025-07-01      |2026-10-01     |
+|GK1 Delhi                              |526             |492                  |2025-01-01      |2026-10-01     |
+|IIMA Ventures                          |242             |219                  |2025-07-13      |2026-10-01     |
+|Koramangala Bengaluru                  |244             |232                  |2026-01-19      |2026-10-01     |
+|New Delhi                              |623             |603                  |2025-01-01      |2026-09-24     |
+|Santushti Apartments, Vasant Kunj      |481             |474                  |2025-06-08      |2026-10-01     |
+|Sector 1, Noida extension              |344             |339                  |2025-10-23      |2026-10-01     |
+|Talab Tillo Jammu                      |252             |244                  |2026-01-16      |2026-10-01     |
+|Uptitude Cloud Pvt Ltd - Sector 62, GGN|325             |317                  |2025-11-10      |2026-10-01     |
+|VNIT Nagpur                            |269             |253                  |2025-10-29      |2026-10-01     |
+|Zoo Park Hyderabad                     |563             |471                  |2025-02-19      |2026-10-01     |
++---------------------------------------+----------------+---------------------+----------------+---------------+
+
+
+========== TARGET CLASS BALANCE ==========
++---------------+-----+
+|next_day_hazard|count|
++---------------+-----+
+|              0| 3018|
+|              1| 1648|
++---------------+-----+
+
+
+Output directory: /mnt/bda-share/bda proj/Air Cast India/preprocessed/expanded
+Preprocessing outputs written successfully.
