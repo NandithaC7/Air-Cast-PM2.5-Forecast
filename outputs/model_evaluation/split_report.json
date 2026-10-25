@@ -1,0 +1,61 @@
+{
+  "split": {
+    "rule": "Global chronological split on unique local_date values. Earliest 70% of dates \u2192 train, next 15% \u2192 validation, latest 15% \u2192 test. Rows that share a calendar date are never split across partitions.",
+    "unique_dates": 635,
+    "train": {
+      "first_date": "2025-01-01",
+      "last_date": "2026-03-22",
+      "date_count": 444
+    },
+    "validation": {
+      "first_date": "2026-03-23",
+      "last_date": "2026-06-25",
+      "date_count": 95
+    },
+    "test": {
+      "first_date": "2026-06-26",
+      "last_date": "2026-09-29",
+      "date_count": 96
+    },
+    "embargo_rows": 0,
+    "embargo_reason": "No embargo gap was added. Lag and rolling features use only past calendar days, so a date-boundary split does not leak future labels into the predictors.",
+    "label_counts": {
+      "train": {
+        "rows": 2375,
+        "positive": 1430,
+        "negative": 945,
+        "prevalence": 0.6021052631578947,
+        "stations": 14
+      },
+      "validation": {
+        "rows": 1231,
+        "positive": 151,
+        "negative": 1080,
+        "prevalence": 0.12266450040617384,
+        "stations": 14
+      },
+      "test": {
+        "rows": 1060,
+        "positive": 67,
+        "negative": 993,
+        "prevalence": 0.06320754716981132,
+        "stations": 14
+      }
+    },
+    "random_seed": 42,
+    "class_weights_train": {
+      "positive": 0.8304195804195804,
+      "negative": 1.2566137566137565
+    }
+  },
+  "dataset": {
+    "feature_rows": 4666,
+    "stations": 14,
+    "positive_labels": 1648,
+    "negative_labels": 3018,
+    "first_date": "2025-01-01",
+    "last_date": "2026-09-29",
+    "feature_file": "preprocessed/expanded/model_features/part-00000-85e25e8e-2116-49ee-b792-d37cd33315b9-c000.csv",
+    "feature_sha256": "63b3309c8268cd6070ebd45c668fee05ebc3426a08c27a75526d3779d8dea283"
+  }
+}
